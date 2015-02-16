@@ -1,0 +1,140 @@
+
+Cats and Dogs
+
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family:"georgia", Times, "Times New Roman", serif;
+    line-height: 1.5rem;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+
+.wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+header {
+    color: black;
+    margin-bottom: 3rem;
+    margin-top: 20px;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+nav {
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    background: #fff;
+    padding: 1rem 0;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .4);
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 24px;
+    color: #52B7E9;
+    padding: 0 1rem;
+}
+
+nav a:hover {
+    color: #008BAF;
+}
+
+.truth {
+    background-color: lightyellow;
+}
+
+#about {
+    padding-top: 3rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+li {
+    margin: .5em;
+}
+
+img {
+    max-width: 100%;
+}
+
+.left-pix {
+    display: inline-block;
+    width: 30%;
+    position: relative;
+}
+
+.center-pix {
+    display: inline-block;
+    width: 30%;
+    margin-left: 5px;
+    position: relative;
+}
+
+.right-pix {
+    display: inline-block;
+    width: 30%;
+    margin-left: 5px;
+    position: relative;
+}
+
+.active {
+    background: pink;
+    height: 40px;
+    transition: all 6s ease;
+}
+
+.active-dog {
+    background: lightblue;
+    height: 40px;
+    transition: all 6s ease;
+}
+
+.active-cat {
+    background: yellow;
+    height: 40px;
+    transition: all 6s ease;
+}
+
+h2 {
+    font-style: Times New Roman;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+.container-footer {
+    text-decoration: none;
+    font-size: 16px;
+    color: #52B7E9;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+section {
+    display: inline-block;
+    padding: 0 1rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-style: italic;
+}

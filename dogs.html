@@ -1,0 +1,65 @@
+<!doctype html>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/styles.css">
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>Dogs</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+</head>
+
+<script>
+$(function() {
+   $('h1').click(function() {
+       $('h1').addClass('active-dog');
+   });
+});
+</script>
+
+<script>
+$(function() {
+   $('.caption').click(function() {
+       $('.caption').addClass('active-dog');
+   });
+});
+</script>
+
+<body>
+<header>
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="/cats.html">Cats</a>
+            <a href="/dogs.html">Dogs</a>
+        </nav>
+        
+    </header>
+
+<h1>Here Are Some Delightful Dogs</h1>
+
+
+<div class="wrapper">
+
+<div class="container-pix">
+        <div class="left-pix">
+            <img src="images/black_white_dog.jpg" alt="">
+            <p class="caption">Terrier Mix</p>
+        </div>
+
+        <div class="center-pix">
+            <img src="images/rat_terrier.jpg" alt="">
+            <p class="caption">Rat Terrier</p>
+        </div>
+
+        <div class="right-pix">
+            <img src="images/retrievers.jpg" alt="">
+            <p class="caption">Labrador Pups</p>
+        </div>
+
+    </div>
+   
+</div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!doctype html>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/styles.css">
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>Cats</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+</head>
+
+<script>
+$(function() {
+   $('h1').click(function() {
+       $('h1').addClass('active-cat');
+   });
+});
+</script>
+
+<script>
+$(function() {
+   $('.caption').click(function() {
+       $('.caption').addClass('active-cat');
+   });
+});
+</script>
+
+<body>
+<header>
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="/cats.html">Cats</a>
+            <a href="/dogs.html">Dogs</a>
+        </nav>
+        
+    </header>
+
+<h1>Here Are Some Charming Cats</h1>
+
+<div class="wrapper">
+
+<div class="container-pix">
+        <div class="left-pix">
+            <img src="images/white_kitten.jpg" alt="">
+            <p class="caption">White Kitten</p>
+        </div>
+
+        <div class="center-pix">
+            <img src="images/black_cat.jpg" alt="">
+            <p class="caption">Black Cat</p>
+        </div>
+
+        <div class="right-pix">
+            <img src="images/grey_cat.jpg" alt="">
+            <p class="caption">Grey Cat</p>
+        </div>
+
+    </div>
+   
+</div>
+</body>
+</html>

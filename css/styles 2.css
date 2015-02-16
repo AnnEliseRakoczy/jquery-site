@@ -1,0 +1,230 @@
+/*
+HalfWit coffee roaster store
+*/
+
+html {
+    font-size: 12px;
+}
+
+body {
+    font-family: "Merriweather", "georgia", Times, "Times New Roman", serif;
+    line-height: 1.5rem;
+}
+
+nav {
+    width: 100%;
+    background: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .4);
+}
+
+nav a {
+    text-decoration: none;
+    color: #52B7E9;
+    padding: 0 .5rem;
+    display: block;
+}
+
+nav a:hover {
+    color: #008BAF;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+blockquote {
+    text-align: center;
+    width: 50%;
+}
+
+blockquote p {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+blockquote p:before {
+    content: "\“";
+}
+
+blockquote p:after {
+    content: "\”";
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+.coffee-text {
+    position: relative;
+    right: -180px;
+    top: -80px;
+}
+/* HEADER */
+
+header {
+    color: black;
+    margin-bottom: 3rem;
+}
+
+header h1 {
+    text-align: center;
+    background: url(../images/coffee-beans-dark.jpg) 0 0 no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: #fff;
+}
+
+
+
+.intro {
+    font-size: 0;
+}
+
+.intro p {
+    display: block;
+    font-size: 1rem;
+    width: 50%;
+    vertical-align: top;
+    padding: .75rem;
+}
+
+.intro p:first-of-type:first-letter {
+    font-size: 3.5rem;
+    float: left;
+    position: relative;
+    margin-top: .75rem;
+    padding: 0 .25rem .5rem 0;
+}
+
+/* COFFEE TYPES */
+
+.coffee-type-container {
+    font-size: 0;
+}
+
+.coffee-type {
+    width: 25%;
+    display: block;
+    font-size: 1rem;
+    vertical-align: top;
+    padding: 0 10px;
+    margin-bottom: 1rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.coffee-img {
+    width: 158px;
+    display: inline-block;
+    opacity: .75;
+
+}
+
+.description {
+    color: #888;
+    font-size: .8125rem;
+    line-height: 1.25rem;
+}
+
+.coffee-type label {
+    display: block;
+    color: #432B27;
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-weight: bold;
+    padding-top: .4rem;
+    cursor: pointer;
+    opacity: .8;
+}
+
+@media screen and (min-width: 480px) {
+html {
+    font-size: 16px;
+}
+
+#about {
+    padding-top: 3rem;
+}
+
+nav {
+    position: fixed;
+}
+nav a {
+    display: inline-block;
+}
+
+.intro p {
+    display: inline-block;
+}
+
+blockquote {
+    margin: auto;
+    width: 80%;
+}
+
+.coffee-type {
+    display: inline-block;
+    width: 50%;
+}
+
+.coffee-text {
+    width: 40%;
+    top: -220px;
+}
+}
+
+@media screen and (min-width: 768px) {
+
+.container {
+    margin: auto;
+    width: 100%;
+}
+
+.intro {
+    width: 800px;
+    margin: auto;
+}
+
+.coffee-type-container {
+    width: 800px;
+    margin: auto;
+}
+
+nav {
+    margin: auto;
+    position: relative;
+}
+
+#about {
+    padding-top: 0;
+}
+
+.coffee-type {
+    display: inline-block;
+    width: 25%;
+}
+
+.coffee-text {
+    display: block;
+    width: 90%;
+    top: 0;
+    right: -20px;
+}
+
+}
+
